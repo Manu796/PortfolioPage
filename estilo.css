@@ -284,6 +284,8 @@
             font-size: 14px;
             line-height: 22px;
         }
+
+
         /* *********************/
         /* seccion SKILLS */
         /* *********************/
@@ -451,6 +453,17 @@
         #portfolio .fila .proyecto:hover .info {
             opacity: 1;
             bottom: 0;
+        }
+
+        .fila a{
+            text-decoration: none;
+            list-style: none;
+            color: white;
+        }
+
+        .fila a:hover{
+            color: blue;
+            transition: 0.5s;
         }
         /* *********************/
         /* seccion CONTACTO */
